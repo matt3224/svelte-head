@@ -9,7 +9,7 @@ Steps:
 ```
 <head>
    ...
-	<title>Sapper project template</title>
+   <title>Sapper project template</title>
    <meta name="description" content="One: A test of svelte head with @html">
    <meta name="description" content="One: A test of svelte head with @html">
 </head>
