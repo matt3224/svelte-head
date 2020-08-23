@@ -1,7 +1,3 @@
-<script>
-	let metas = '<meta name="description" content="One: A test of svelte head with @html">';
-</script>
-
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -39,7 +35,7 @@
 
 <svelte:head>
 	<title>Sapper project template</title>
-	{@html metas}
+	<meta name="description" content="One: A test of svelte head without @html">
 </svelte:head>
 
 <h1>Great success!</h1>

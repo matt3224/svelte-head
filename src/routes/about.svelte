@@ -1,10 +1,6 @@
-<script>
-	let metas = '<meta name="description" content="Two: A test of svelte head with @html">';
-</script>
-
 <svelte:head>
 	<title>About</title>
-	{@html metas}
+	<meta name="description" content="Two: A test of svelte head without @html">
 </svelte:head>
 
 <h1>About this site</h1>

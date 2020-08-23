@@ -8,8 +8,6 @@
 
 <script>
 	export let posts;
-
-	let metas = '<meta name="description" content="Three: A test of svelte head with @html">';
 </script>
 
 <style>
@@ -21,7 +19,7 @@
 
 <svelte:head>
 	<title>Blog</title>
-	{@html metas}
+	<meta name="description" content="Three: A test of svelte head without @html">
 </svelte:head>
 
 <h1>Recent posts</h1>
